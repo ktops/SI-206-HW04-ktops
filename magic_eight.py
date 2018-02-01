@@ -1,6 +1,6 @@
 def user_question():
     user_input = input("What is your quesiton? ")
-    return
+    return user_input
 
 user_input = ""
 while user_input is not "quit":
