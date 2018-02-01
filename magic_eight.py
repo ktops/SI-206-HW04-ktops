@@ -1,6 +1,15 @@
 def user_question():
     user_input = input("What is your quesiton? ")
-    return user_input
+    return
+
+user_input = ""
+while user_input is not "quit":
+    user_input = user_question()
+
+    if user_input[-1] is not "?":
+        print("I'm sorry, I can only answer questions.")
+    else:
+        break
 
 import random
 possible_answers = ["It is certain", "It is decidedly so", "Without a doubt", "Yes definitely",
