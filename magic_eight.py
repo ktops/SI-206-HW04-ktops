@@ -18,3 +18,4 @@ possible_answers = ["It is certain", "It is decidedly so", "Without a doubt", "Y
                     "Very doubtful"]
 
 answer_to_question = random.choice(possible_answers)
+print(answer_to_question)
